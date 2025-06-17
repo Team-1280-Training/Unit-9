@@ -11,8 +11,7 @@ Unit 9 contains various unrelated topics and skills that aren't as fundamental b
 - [Enums](#enums)
 - [Code Readability](#code-readability)
     - [Complexity](#complexity)
-- [Performance and Efficiency](#performance-and-efficiency)
-- [Method Pointers](#method-pointers)
+- [Lambda Expressions and Method References](#lambda-expressions-and-method-references)
 - [Type Casting](#type-casting)
 - [Recap](#recap)
 
