@@ -169,12 +169,7 @@ They have many other features too, which you can research if you need them.
 An unreadable codebase is much harder to maintain, debug, and extend. \
 There are multiple things that contribute to readability.
 
-Code formatting or styling is about the tiny details in how the code is written (they don't affect the code's behavior). \
-Examples include whitespace, indentation, and how long lines are (line length limit). \
-Programmers typically use a **formatter** to automatically format code. This standardizes how code is styled, which is especially important for shared codebases. \
-In VS Code settings, turn on `Format On Save` setting to have the formatter run on save. To open *Settings*, press `Ctrl`+`,`. \
-We recommend you use a formatter. It saves effort, and it also handles indentation for you. \
-About optional blank lines: place them as needed to group code, but do not overuse them.
+Formatting and the formatter were taught in Unit 2.
 
 A critical part of code readability is proper naming of variables, methods, etc. \
 First, the correct style should be used (variables, fields, and methods: `camelCase`, constants: `UPPER_CASE`, classes: `PascalCase`). \
@@ -363,7 +358,6 @@ You can declare that a less specific superclass object is actually of a subclass
 | - | - |
 | `Ctrl`+`Space` | Trigger suggestions |
 | `Ctrl`+`LeftClick` | Jump to definition of symbol |
-| `Ctrl`+`,` | Open *Settings* tab |
 
 ## Feedback
 Please provide feedback if you have any. \
