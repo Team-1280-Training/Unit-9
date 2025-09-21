@@ -161,8 +161,34 @@ PLANET
 MOON
 ASTEROID
 ```
+Enums can define their own methods, just like regular classes. (Then, the values list must be ended with a semicolon.) \
+Enum values by default have an `ordinal()` method, which is their index inside the `values()` array. \
+This can be used to cycle through enum values in order:
+```java
+public class Main {
+    public enum Day {
+        SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY;
 
-They have many other features too, which you can research if you need them.
+        public Day nextDay() {
+            Day[] values = Day.values();
+            int nextIndex = (this.ordinal() + 1) % values.length; // Next day, with wrapping
+            return values[nextIndex];
+        }
+    }
+
+    public static void main(String[] args) {
+        Day today = Day.SATURDAY;
+        Day tomorrow = today.nextDay();
+        System.out.println(tomorrow);
+    }
+}
+```
+Output:
+```
+SUNDAY
+```
+
+Enums have many other features too, such as constructors (where you can initialize enum values with associated data), which you can research if you need them.
 
 ## Code Readability
 **Readability** is how easy it is to understand code. This is especially important when working with others, but it also benefits yourself as well. \
