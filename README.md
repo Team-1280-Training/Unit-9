@@ -52,7 +52,7 @@ If you `Ctrl`+`LeftClick` on the symbol at its definition itself, it instead pul
 Note that most code actions are also available by right-clicking the code, for the dropdown.
 
 ### AI
-*Artificial intelligence* (AI), specifically *large language models* (LLM) such as *ChatGPT*, *Windsurf*, *Claude*, and *Gemini*, are changing many aspects of programming. \
+*Artificial intelligence* (AI), specifically *large language models* (LLMs) such as *GitHub Copilot*, *ChatGPT*, *Windsurf*, *Claude*, and *Gemini*, are changing many aspects of programming. \
 There are two primary uses of AI in programming:
 - Researching information or asking questions
 - Writing code or debugging
