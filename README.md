@@ -1,7 +1,7 @@
 # Unit 9: Additional Topics
 
 ## Introduction
-You're one unit and a final project away from completing our beginner training! At this point, you know most of the Java basics you'll need going into the programming subteam, but there are some miscellaneous topics left to cover.
+You're one unit and a final project away from completing this course! At this point, you know most of the Java basics you'll need going into the programming subteam, but there are some miscellaneous topics left to cover.
 
 Unit 9 contains various unrelated topics and skills that aren't as fundamental but are still important or useful. There are no exercises and no project. \
 Submitting (with a commit) is not needed unless you have feedback.
